@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 16px;
+    background-color: #fff;
+    line-height: 1.5;
+}
+
+*:focus {
+    outline: 2px solid #ff7500;
+    outline-offset: 3px;
+  }
+
+.container {
+    width: 100%;
+    max-width: 1260px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box {
+    display: flex;
+}
+
+.main {
+    width: 600px;
+    height: 782px;
+    background-image: url(../img/wallpaper-img.png);
+}
+
+.hero {
+    width: 600px;
+    height: 782px;
+}
