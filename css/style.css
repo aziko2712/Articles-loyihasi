@@ -24,10 +24,10 @@ body {
     color: #222;
 }
 
-img {
+/* img {
     min-width: 100%;
     height: auto;
-}
+} */
 
 /* CONTAINER */
 .container {
@@ -74,6 +74,8 @@ img {
 .hero-heading {
     margin-top: 0;
     margin-bottom: 24px;
+    font-family: "Bebas Neue", "Roboto", sans-serif;
+    font-weight: normal;
     font-size: 24px;
     line-height: normal;
     letter-spacing: 2px;
@@ -85,9 +87,19 @@ img {
     display: inline-block;
     background-color: #1e90ff;
     color: #fff;
+    font-family: "Bebas Neue", "Roboto", sans-serif;
+    font-weight: normal;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+
+.hero-link:hover {
+    background-color: rgba(30, 144, 255, 0.8);
+}
+
+.hero-link:active {
+    background-color: rgba(30, 144, 255, 0.5);
 }
 
 .hero-link-inner {
@@ -106,9 +118,98 @@ img {
     content: "";
 }
 
-.hero-link-text {
+/* BLOG */
+
+.blog {
+    width: 100%;
+    max-width: 600px;
+    margin-left: 54px;
 }
 
+.blog-heading {
+    margin-top: 54px;
+    margin-bottom: 24px;
+    font-family: "Bebas Neue", "Roboto", sans-serif;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+.blog-line {
+    width: 492px;
+    border: solid 1px #999999;
+    margin-bottom: 24px;
+}
+
+.blog-content {
+    width: 492px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.blog-content-img {
+    width: 160px;
+    height: 90px;
+}
+
+.blog-content-text {
+    width: 332px;
+    height: 90px;
+    padding: 16px;
+}
+
+.blog-content-link {
+    text-decoration: none;
+}
+
+.blog-heading-text {
+    margin: 0;
+    padding: 0;
+    font-family: "Bebas Neue", "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #222222;
+    
+}
+
+.views {
+    display: flex;
+}
+
+.view-clock {
+    margin-right: 24px;
+}
+
+.blog-views {
+    font-family: "Roboto", "Bebas Neue", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #888888;
+    margin-bottom: 32px;
+}
+
+.blog-link {
+    width: 492px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 32px;
+    display: inline-block;
+    background-color: #1e90ff;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.blog-link:hover {
+    background-color: rgba(30, 144, 255, 0.8);
+}
+
+.blog-link:active {
+    background-color: rgba(30, 144, 255, 0.5);
+}
 
 
 
